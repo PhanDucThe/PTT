@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dịch Vụ Đi Kèm - Travel Company</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .service-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .service-icon {
+            font-size: 3rem;
+            color: #0d6efd;
+            margin-bottom: 1rem;
+        }
+        .price-tag {
+            background-color: #0d6efd;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="text-center mb-5">
+            <h1 class="display-4">Dịch Vụ Đi Kèm</h1>
+            <p class="lead">Trọn gói tiện ích cho chuyến du lịch hoàn hảo của bạn</p>
+        </div>
+
+        <!-- Dịch vụ đưa đón sân bay -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <img src="./images/971A5797 copy.jpg" alt="Đưa đón sân bay" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-4">Dịch Vụ Đưa Đón Sân Bay</h2>
+                <p class="lead">Tận hưởng sự thoải mái với dịch vụ đưa đón chuyên nghiệp</p>
+                <ul class="list-group list-group-flush mb-4">
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Đội xe sang trọng, đa dạng
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Tài xế chuyên nghiệp, nhiều kinh nghiệm
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Theo dõi chuyến bay và điều chỉnh thời gian linh hoạt
+                    </li>
+                </ul>
+                <span class="price-tag">Từ 300.000đ/chuyến</span>
+            </div>
+        </div>
+
+        <!-- Dịch vụ thuê xe -->
+        <div class="row mb-5">
+            <div class="col-lg-6 order-lg-2">
+                <img src="./images/Thue-Xe-7-Cho.jpg" alt="Thuê xe" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <h2 class="mb-4">Thuê Xe & Tài Xế</h2>
+                <p class="lead">Di chuyển thoải mái với dịch vụ thuê xe chất lượng cao</p>
+                <ul class="list-group list-group-flush mb-4">
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Đa dạng loại xe từ 4-45 chỗ
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Xe đời mới, bảo dưỡng định kỳ
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Tài xế thông thạo đường đi
+                    </li>
+                </ul>
+                <span class="price-tag">Từ 800.000đ/ngày</span>
+            </div>
+        </div>
+
+        <!-- Hướng dẫn viên -->
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <img src="./images/1006.net_hue.jpg" alt="Hướng dẫn viên" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-4">Hướng Dẫn Viên Riêng</h2>
+                <p class="lead">Khám phá điểm đến cùng người bản địa chuyên nghiệp</p>
+                <ul class="list-group list-group-flush mb-4">
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        HDV có chứng chỉ hành nghề
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Thông thạo nhiều ngôn ngữ
+                    </li>
+                    <li class="list-group-item">
+                        <i class="fas fa-check-circle text-success me-2"></i>
+                        Am hiểu văn hóa và lịch sử địa phương
+                    </li>
+                </ul>
+                <span class="price-tag">Từ 1.200.000đ/ngày</span>
+            </div>
+        </div>
+
+        <!-- Các dịch vụ khác -->
+        <div class="row mb-5">
+            <h2 class="text-center mb-4">Dịch Vụ Khác</h2>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card text-center p-4">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Chụp Ảnh Du Lịch</h3>
+                    <p>Lưu giữ khoảnh khắc đẹp cùng nhiếp ảnh gia chuyên nghiệp</p>
+                    <span class="price-tag align-self-center">Từ 500.000đ/giờ</span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card text-center p-4">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Đặt Bàn Nhà Hàng</h3>
+                    <p>Trải nghiệm ẩm thực đặc sắc tại các nhà hàng nổi tiếng</p>
+                    <span class="price-tag align-self-center">Theo thực đơn</span>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card service-card text-center p-4">
+                    <div class="service-icon">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <h3>Vé Tham Quan</h3>
+                    <p>Đặt vé tham quan các điểm du lịch với giá ưu đãi</p>
+                    <span class="price-tag align-self-center">Theo điểm đến</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form đặt dịch vụ -->
+        <div class="row mb-5">
+            <div class="col-lg-8 mx-auto">
+                <div class="card service-card p-4">
+                    <h2 class="text-center mb-4">Đặt Dịch Vụ</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Chọn Dịch Vụ</label>
+                            <select class="form-select">
+                                <option>Đưa đón sân bay</option>
+                                <option>Thuê xe & tài xế</option>
+                                <option>Hướng dẫn viên riêng</option>
+                                <option>Chụp ảnh du lịch</option>
+                                <option>Đặt bàn nhà hàng</option>
+                                <option>Vé tham quan</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Họ Tên</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Số Điện Thoại</label>
+                            <input type="tel" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Ngày Sử Dụng</label>
+                            <input type="date" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Ghi Chú</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-lg">Đặt Ngay</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nút quay lại -->
+        <div class="text-center">
+            <a href="index.html" class="btn btn-primary btn-lg">
+                <i class="fas fa-arrow-left me-2"></i>Quay Lại Trang Chủ
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
